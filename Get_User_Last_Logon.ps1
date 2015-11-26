@@ -1,4 +1,5 @@
-﻿import-module activedirectory
+﻿#Requerements AD library
+import-module activedirectory
 Get-ADUser  -filter * -Properties "LastLogonDate"  | 
 
 sort-object -property lastlogondate -descending | 
