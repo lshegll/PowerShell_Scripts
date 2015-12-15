@@ -1,5 +1,5 @@
 ﻿$enddate = (Get-Date).tostring("dd.MM.yyyy")
-$baseDir = "C:\PerfLogs\"
+$baseDir = "C:\Base\"
 $bakFile = "C:\Backup\Backup_$enddate.zip"
 $TodayDate=(Get-Date).ToString("yyyy-MM-dd")
 $tempFile = [io.path]::GetTempFileName()
