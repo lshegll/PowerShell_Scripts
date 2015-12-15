@@ -26,5 +26,5 @@ foreach ( $char in $text ) {
             } 
     }
 
-#Delete tempory backup file
+#Delete temp backup file
 Remove-Item $bakFile
