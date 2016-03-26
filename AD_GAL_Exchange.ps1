@@ -1,0 +1,1 @@
+New-GlobalAddressList -Name "GAL_K-profil" -RecipientFilter {((RecipientType -eq "UserMailbox") -and (Emailaddresses  -like "*@k-profil.com.ua"))}
